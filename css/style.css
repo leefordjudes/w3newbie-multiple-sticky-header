@@ -8,7 +8,6 @@ html, body {
 }
 
 /*============= NAVIGATION =============*/
-
 .navbar-brand img {
   height: 2.8rem;
 }
@@ -34,15 +33,57 @@ html, body {
 .nav-link:hover {
   color: #396AFC !important;
 }
-/*============= CAROUSEL =============*/
 
+#carousel {
+  position: absolute;
+}
+/*============= CAROUSEL =============*/
+.carousel-inner {
+  max-height: 40rem!important;
+}
 
 
 /*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1.2s ease;
+}
 
+.carousel-indicators li {
+  width: 40px;
+  height: 6px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
 
 /*-- Carousel Content --*/
+.carousel-caption {
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+}
 
+.bg-dark {
+  background-color: rgba(0, 0, 0, .7)!important;
+  border-radius: 1.2rem;
+  padding: 1rem;
+}
+
+.bg-white {
+  background-color: rgba(255, 255, 255, .65)!important;
+  border-radius: 1.2rem;
+  padding: 1rem;
+}
+
+.carousel-caption h3 {
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+p.lead {
+  font-size: 1.4rem;
+}
 
 /*============= SOCIAL MEDIA STICKY BAR =============*/
 
