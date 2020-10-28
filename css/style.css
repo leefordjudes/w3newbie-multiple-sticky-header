@@ -126,12 +126,11 @@ ul.social li {
   border-top: .05rem solid black;
   border-bottom: .05rem solid black;
   margin-bottom: 2px;
-  /* -- remove below -- */
-  /* height: 100vh; */
 }
 .fixed {
-  background-image: url('../img/imac.jpg');
-  position: fixed;
+  background-image: url(../img/imac.jpg);
+  /* position: fixed; */
+  background-attachment: fixed;
 }
 
 
